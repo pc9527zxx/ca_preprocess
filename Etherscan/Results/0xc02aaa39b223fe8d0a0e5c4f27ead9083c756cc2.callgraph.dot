@@ -1,13 +1,13 @@
 digraph "callgraph" {
   rankdir=LR;
-  node [shape=box, fontsize=10];
-  "WETH9::WETH9.approve(address,uint256)" [label="WETH9.approve(address,uint256)\n[public]"];
-  "WETH9::WETH9.deposit()" [label="WETH9.deposit()\n[public]"];
-  "WETH9::WETH9.fallback()" [label="WETH9.fallback()\n[public]"];
-  "WETH9::WETH9.totalSupply()" [label="WETH9.totalSupply()\n[public]"];
-  "WETH9::WETH9.transfer(address,uint256)" [label="WETH9.transfer(address,uint256)\n[public]"];
-  "WETH9::WETH9.transferFrom(address,address,uint256)" [label="WETH9.transferFrom(address,address,uint256)\n[public]"];
-  "WETH9::WETH9.withdraw(uint256)" [label="WETH9.withdraw(uint256)\n[public]"];
+  node [fontsize=10];
+  "WETH9::WETH9.approve(address,uint256)" [label="WETH9.approve(address,uint256)\n[public]", shape="box"];
+  "WETH9::WETH9.deposit()" [label="WETH9.deposit()\n[public]", shape="box"];
+  "WETH9::WETH9.fallback()" [label="WETH9.fallback()\n[public]", shape="box"];
+  "WETH9::WETH9.totalSupply()" [label="WETH9.totalSupply()\n[public]", shape="box"];
+  "WETH9::WETH9.transfer(address,uint256)" [label="WETH9.transfer(address,uint256)\n[public]", shape="box"];
+  "WETH9::WETH9.transferFrom(address,address,uint256)" [label="WETH9.transferFrom(address,address,uint256)\n[public]", shape="box"];
+  "WETH9::WETH9.withdraw(uint256)" [label="WETH9.withdraw(uint256)\n[public]", shape="box"];
   "WETH9::WETH9.fallback()" -> "WETH9::WETH9.deposit()" [label="internal", color="black"];
   "WETH9::WETH9.transfer(address,uint256)" -> "WETH9::WETH9.transferFrom(address,address,uint256)" [label="internal", color="black"];
 }

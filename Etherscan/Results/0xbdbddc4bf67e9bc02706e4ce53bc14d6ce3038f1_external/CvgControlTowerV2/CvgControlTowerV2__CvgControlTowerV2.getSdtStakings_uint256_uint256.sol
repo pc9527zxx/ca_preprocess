@@ -21,3 +21,7 @@ function getSdtStakings(uint256 _cursorStart, uint256 _lengthDesired) external v
 
         return array;
     }
+
+// leaf targets (no body):
+//   - (external) [abstract]: ISdAssetGauge.name()
+//   - (external) [abstract]: ISdtStakingPositionService.stakingAsset()

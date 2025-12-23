@@ -1,17 +1,19 @@
 digraph "callgraph" {
   rankdir=LR;
-  node [shape=box, fontsize=10];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::__init__" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.__init__\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::approve" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.approve\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::burnFrom" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.burnFrom\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::decimals" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.decimals\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::decreaseAllowance" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.decreaseAllowance\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::increaseAllowance" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.increaseAllowance\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::initialize" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.initialize\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::mint" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.mint\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::mint_relative" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.mint_relative\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::permit" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.permit\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::transfer" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.transfer\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::transferFrom" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.transferFrom\n[external]"];
-  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::version" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.version\n[external]"];
+  node [fontsize=10];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::__init__" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.__init__\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::approve" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.approve\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::burnFrom" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.burnFrom\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::decimals" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.decimals\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::decreaseAllowance" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.decreaseAllowance\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::increaseAllowance" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.increaseAllowance\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::initialize" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.initialize\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::mint" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.mint\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::mint_relative" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.mint_relative\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::permit" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.permit\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::transfer" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.transfer\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::transferFrom" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.transferFrom\n[external]", shape="box"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::version" [label="0x421e13b4e805993a0d50ad8c6c47a4f693f04424.version\n[external]", shape="box"];
+  "unknown::Call.isValidSignature" [label="Call.isValidSignature", shape="ellipse"];
+  "0x421e13b4e805993a0d50ad8c6c47a4f693f04424::permit" -> "unknown::Call.isValidSignature" [label="external", color="red"];
 }

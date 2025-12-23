@@ -38,6 +38,21 @@ def _iter_addresses() -> List[str]:
     return sorted(addrs)
 
 
+def _resolve_addr_dir(addr: str) -> Optional[Path]:
+    """
+    Resolve an address directory under SOURCE_DIR case-insensitively.
+    Some datasets may store EIP-55 checksummed directory names.
+    """
+    direct = SOURCE_DIR / addr
+    if direct.is_dir():
+        return direct
+    want = addr.lower()
+    for p in SOURCE_DIR.iterdir():
+        if p.is_dir() and p.name.lower() == want:
+            return p
+    return None
+
+
 def _detect_vyper_file(addr_dir: Path) -> Optional[Path]:
     # Prefer .vy in the directory root.
     for p in sorted(addr_dir.glob("*.vy")):
@@ -285,7 +300,7 @@ def _result_has_errors(path: Path) -> bool:
 
 
 def process_address(addr: str) -> Tuple[bool, str]:
-    addr_dir = SOURCE_DIR / addr
+    addr_dir = _resolve_addr_dir(addr)
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     out_json = RESULTS_DIR / f"{addr}.json"
     out_log = RESULTS_DIR / f"{addr}.log"
@@ -294,6 +309,24 @@ def process_address(addr: str) -> Tuple[bool, str]:
     out_external_arg = os.path.relpath(out_external, Path.cwd())
     if out_external.exists():
         shutil.rmtree(out_external, ignore_errors=True)
+
+    if addr_dir is None or not addr_dir.is_dir():
+        out_json.write_text(
+            json.dumps(
+                {
+                    "tool": "contract-preprocess",
+                    "targets": [addr],
+                    "compilations": [],
+                    "errors": [{"target": addr, "stage": "sourcecode", "error": "no source directory under Etherscan/SourceCode"}],
+                },
+                indent=2,
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf8",
+        )
+        out_log.write_text("SKIP: no source directory\n", encoding="utf8")
+        return False, "no-source-dir"
 
     vyper_file = _detect_vyper_file(addr_dir)
     if vyper_file is not None:

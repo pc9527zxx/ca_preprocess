@@ -85,6 +85,13 @@ function claimMultipleStaking(
         _withdrawRewards(_account, _totalCvgClaimable, _totalCvxClaimable, _minCvgCvxAmountOut, _isConvert);
     }
 
+// leaf targets (no body):
+//   - (external) [abstract]: ICVX1.mint(address,uint256)
+//   - (external) [abstract]: ICrvPoolPlain.exchange(int128,int128,uint256,uint256,address)
+//   - (external) [abstract]: ICvg.mintStaking(address,uint256)
+//   - (external) [abstract]: ICvgCVX.mint(address,uint256,bool)
+//   - (external) [abstract]: ICvxStakingPositionService.claimCvgCvxMultiple(address)
+
 // ---- reachable (internal) [internal]: CvxRewardDistributor._withdrawRewards(address,uint256,ICommonStruct.TokenAmount[],uint256,bool)
 // source: Etherscan/SourceCode/0x47c69e8c909ce626af73c955a5e34a20b7c71f19/contracts/Staking/Convex/CvxRewardDistributor.sol:203-240
 function _withdrawRewards(

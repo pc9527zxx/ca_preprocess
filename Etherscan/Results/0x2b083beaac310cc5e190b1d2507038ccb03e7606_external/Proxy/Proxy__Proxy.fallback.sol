@@ -4,6 +4,9 @@ fallback() external payable virtual {
         _fallback();
     }
 
+// leaf targets (no body):
+//   - (internal) [abstract]: Proxy._implementation()
+
 // ---- reachable (internal) [internal]: Proxy._fallback()
 // source: Etherscan/SourceCode/0x2b083beaac310cc5e190b1d2507038ccb03e7606/@openzeppelin/contracts/proxy/Proxy.sol:58-61
 function _fallback() internal virtual {

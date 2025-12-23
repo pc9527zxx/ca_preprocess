@@ -1,0 +1,2188 @@
+{
+  "compilations": [
+    {
+      "contracts": [
+        {
+          "functions": {
+            "external": [
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.mint(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.withdrawVault(address,uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.mpc()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.mpc()",
+                    "kind": "function",
+                    "name": "mpc()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapFeeTo(address,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapFeeTo(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapFeeTo(address,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapIn(bytes32,address,address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapIn(bytes32,address,address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapIn(bytes32,address,address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapIn(bytes32[],address[],address[],uint256[],uint256[])",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapIn(bytes32[],address[],address[],uint256[],uint256[])",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapIn(bytes32[],address[],address[],uint256[],uint256[])",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.withdrawVault(address,uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "IERC20.balanceOf(address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapInAuto(bytes32,address,address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapInAuto(bytes32,address,address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapInAuto(bytes32,address,address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsOut(address,uint256,address[])",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.pairFor(address,address,address)",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                    "kind": "function",
+                    "name": "pairFor(address,address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferNative(address,uint256)",
+                    "edge": "external",
+                    "id": "TransferHelper::TransferHelper.safeTransferNative(address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferNative(address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "IwNATIVE.withdraw(uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._swap(uint256[],address[],address)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._swap(uint256[],address[],address)",
+                    "kind": "function",
+                    "name": "_swap(uint256[],address[],address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsOut(address,uint256,address[])",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.pairFor(address,address,address)",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                    "kind": "function",
+                    "name": "pairFor(address,address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferNative(address,uint256)",
+                    "edge": "library",
+                    "id": "TransferHelper::TransferHelper.safeTransferNative(address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferNative(address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapInExactTokensForNative(bytes32,uint256,uint256,address[],address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapInExactTokensForNative(bytes32,uint256,uint256,address[],address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapInExactTokensForNative(bytes32,uint256,uint256,address[],address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsOut(address,uint256,address[])",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.pairFor(address,address,address)",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                    "kind": "function",
+                    "name": "pairFor(address,address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._swap(uint256[],address[],address)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._swap(uint256[],address[],address)",
+                    "kind": "function",
+                    "name": "_swap(uint256[],address[],address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsOut(address,uint256,address[])",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.pairFor(address,address,address)",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                    "kind": "function",
+                    "name": "pairFor(address,address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapInExactTokensForTokens(bytes32,uint256,uint256,address[],address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapInExactTokensForTokens(bytes32,uint256,uint256,address[],address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapInExactTokensForTokens(bytes32,uint256,uint256,address[],address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.withdrawVault(address,uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapIn(bytes32,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapInUnderlying(bytes32,address,address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapInUnderlying(bytes32,address,address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapInUnderlying(bytes32,address,address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapOut(address,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOut(address,address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOut(address,address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOut(address,address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapOut(address,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOut(address[],address[],uint256[],uint256[])",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOut(address[],address[],uint256[],uint256[])",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOut(address[],address[],uint256[],uint256[])",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForNative(uint256,uint256,address[],address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForNative(uint256,uint256,address[],address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForNative(uint256,uint256,address[],address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "external",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "library",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForNativeUnderlying(uint256,uint256,address[],address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForNativeUnderlying(uint256,uint256,address[],address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForNativeUnderlying(uint256,uint256,address[],address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "external",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "IERC20.permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "library",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForNativeUnderlyingWithPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForNativeUnderlyingWithPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForNativeUnderlyingWithPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "IERC20.transferWithPermit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForNativeUnderlyingWithTransferPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForNativeUnderlyingWithTransferPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForNativeUnderlyingWithTransferPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForTokens(uint256,uint256,address[],address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForTokens(uint256,uint256,address[],address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForTokens(uint256,uint256,address[],address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "external",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "library",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForTokensUnderlying(uint256,uint256,address[],address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForTokensUnderlying(uint256,uint256,address[],address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForTokensUnderlying(uint256,uint256,address[],address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "external",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "IERC20.permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "library",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForTokensUnderlyingWithPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForTokensUnderlyingWithPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForTokensUnderlyingWithPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "IERC20.transferWithPermit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.ensure(uint256)",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.ensure(uint256)",
+                    "kind": "function",
+                    "name": "ensure(uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutExactTokensForTokensUnderlyingWithTransferPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutExactTokensForTokensUnderlyingWithTransferPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutExactTokensForTokensUnderlyingWithTransferPermit(address,uint256,uint256,address[],address,uint256,uint8,bytes32,bytes32,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "external",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapOut(address,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "library",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutUnderlying(address,address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutUnderlying(address,address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutUnderlying(address,address,uint256,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "external",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "IERC20.permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapOut(address,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "TransferHelper",
+                    "declared_in": "TransferHelper",
+                    "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "edge": "library",
+                    "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                    "kind": "function",
+                    "name": "safeTransferFrom(address,address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutUnderlyingWithPermit(address,address,address,uint256,uint256,uint8,bytes32,bytes32,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutUnderlyingWithPermit(address,address,address,uint256,uint256,uint8,bytes32,bytes32,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutUnderlyingWithPermit(address,address,address,uint256,uint256,uint8,bytes32,bytes32,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.depositVault(uint256,address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "AnyswapV1ERC20.underlying()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "IERC20.transferWithPermit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                    "kind": "function",
+                    "name": "_anySwapOut(address,address,address,uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.anySwapOutUnderlyingWithTransferPermit(address,address,address,uint256,uint256,uint8,bytes32,bytes32,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.anySwapOutUnderlyingWithTransferPermit(address,address,address,uint256,uint256,uint8,bytes32,bytes32,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "anySwapOutUnderlyingWithTransferPermit(address,address,address,uint256,uint256,uint8,bytes32,bytes32,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.receive()",
+                "id": "AnyswapV4Router::AnyswapV4Router.receive()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": true,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "receive()",
+                "visibility": "external"
+              }
+            ],
+            "internal": [
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.mint(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router._anySwapIn(bytes32,address,address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_anySwapIn(bytes32,address,address,uint256,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.burn(address,uint256)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router._anySwapOut(address,address,address,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_anySwapOut(address,address,address,uint256,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.pairFor(address,address,address)",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                    "kind": "function",
+                    "name": "pairFor(address,address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.sortTokens(address,address)",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.sortTokens(address,address)",
+                    "kind": "function",
+                    "name": "sortTokens(address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "display": "ISushiswapV2Pair.swap(uint256,uint256,address,bytes)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.pairFor(address,address,address)",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                    "kind": "function",
+                    "name": "pairFor(address,address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.sortTokens(address,address)",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.sortTokens(address,address)",
+                    "kind": "function",
+                    "name": "sortTokens(address,address)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router._swap(uint256[],address[],address)",
+                "id": "AnyswapV4Router::AnyswapV4Router._swap(uint256[],address[],address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_swap(uint256[],address[],address)",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": [
+              {
+                "calls": [],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.cID()",
+                "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "cID()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.cID()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.cID()",
+                    "kind": "function",
+                    "name": "cID()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.mpc()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.mpc()",
+                    "kind": "function",
+                    "name": "mpc()",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.changeMPC(address)",
+                "id": "AnyswapV4Router::AnyswapV4Router.changeMPC(address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "changeMPC(address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "AnyswapV1ERC20.changeVault(address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "internal",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "AnyswapV4Router",
+                    "declared_in": "AnyswapV4Router",
+                    "display": "AnyswapV4Router.onlyMPC()",
+                    "edge": "modifier",
+                    "id": "AnyswapV4Router::AnyswapV4Router.onlyMPC()",
+                    "kind": "function",
+                    "name": "onlyMPC()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.changeVault(address,address)",
+                "id": "AnyswapV4Router::AnyswapV4Router.changeVault(address,address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "changeVault(address,address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.constructor(address,address,address)",
+                "id": "AnyswapV4Router::AnyswapV4Router.constructor(address,address,address)",
+                "is_constructor": true,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "constructor(address,address,address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "getAmountIn(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "getAmountIn(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.getAmountIn(uint256,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.getAmountIn(uint256,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountIn(uint256,uint256,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "getAmountOut(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "getAmountOut(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.getAmountOut(uint256,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.getAmountOut(uint256,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountOut(uint256,uint256,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsIn(address,uint256,address[])",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsIn(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsIn(address,uint256,address[])",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsIn(address,uint256,address[])",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsIn(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsIn(address,uint256,address[])",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.getAmountsIn(uint256,address[])",
+                "id": "AnyswapV4Router::AnyswapV4Router.getAmountsIn(uint256,address[])",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountsIn(uint256,address[])",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsOut(address,uint256,address[])",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                    "kind": "function",
+                    "name": "getAmountsOut(address,uint256,address[])",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.getAmountsOut(uint256,address[])",
+                "id": "AnyswapV4Router::AnyswapV4Router.getAmountsOut(uint256,address[])",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountsOut(uint256,address[])",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.mpc()",
+                "id": "AnyswapV4Router::AnyswapV4Router.mpc()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mpc()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.quote(uint256,uint256,uint256)",
+                    "edge": "external",
+                    "id": "SushiswapV2Library::SushiswapV2Library.quote(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "quote(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.quote(uint256,uint256,uint256)",
+                    "edge": "library",
+                    "id": "SushiswapV2Library::SushiswapV2Library.quote(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "quote(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "AnyswapV4Router",
+                "declared_in": "AnyswapV4Router",
+                "display": "AnyswapV4Router.quote(uint256,uint256,uint256)",
+                "id": "AnyswapV4Router::AnyswapV4Router.quote(uint256,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "quote(uint256,uint256,uint256)",
+                "visibility": "public"
+              }
+            ]
+          },
+          "name": "AnyswapV4Router"
+        },
+        {
+          "functions": {
+            "external": [],
+            "internal": [
+              {
+                "calls": [],
+                "contract_context": "SafeMathSushiswap",
+                "declared_in": "SafeMathSushiswap",
+                "display": "SafeMathSushiswap.add(uint256,uint256)",
+                "id": "SafeMathSushiswap::SafeMathSushiswap.add(uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "add(uint256,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "SafeMathSushiswap",
+                "declared_in": "SafeMathSushiswap",
+                "display": "SafeMathSushiswap.mul(uint256,uint256)",
+                "id": "SafeMathSushiswap::SafeMathSushiswap.mul(uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mul(uint256,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "SafeMathSushiswap",
+                "declared_in": "SafeMathSushiswap",
+                "display": "SafeMathSushiswap.sub(uint256,uint256)",
+                "id": "SafeMathSushiswap::SafeMathSushiswap.sub(uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "sub(uint256,uint256)",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": []
+          },
+          "name": "SafeMathSushiswap"
+        },
+        {
+          "functions": {
+            "external": [],
+            "internal": [
+              {
+                "calls": [
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.add(uint256,uint256)",
+                    "edge": "external",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.add(uint256,uint256)",
+                    "kind": "function",
+                    "name": "add(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.mul(uint256,uint256)",
+                    "edge": "external",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.mul(uint256,uint256)",
+                    "kind": "function",
+                    "name": "mul(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.sub(uint256,uint256)",
+                    "edge": "external",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.sub(uint256,uint256)",
+                    "kind": "function",
+                    "name": "sub(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.add(uint256,uint256)",
+                    "edge": "library",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.add(uint256,uint256)",
+                    "kind": "function",
+                    "name": "add(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.mul(uint256,uint256)",
+                    "edge": "library",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.mul(uint256,uint256)",
+                    "kind": "function",
+                    "name": "mul(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.sub(uint256,uint256)",
+                    "edge": "library",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.sub(uint256,uint256)",
+                    "kind": "function",
+                    "name": "sub(uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                "id": "SushiswapV2Library::SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountIn(uint256,uint256,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.add(uint256,uint256)",
+                    "edge": "external",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.add(uint256,uint256)",
+                    "kind": "function",
+                    "name": "add(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.mul(uint256,uint256)",
+                    "edge": "external",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.mul(uint256,uint256)",
+                    "kind": "function",
+                    "name": "mul(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.add(uint256,uint256)",
+                    "edge": "library",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.add(uint256,uint256)",
+                    "kind": "function",
+                    "name": "add(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.mul(uint256,uint256)",
+                    "edge": "library",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.mul(uint256,uint256)",
+                    "kind": "function",
+                    "name": "mul(uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                "id": "SushiswapV2Library::SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountOut(uint256,uint256,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountIn(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "getAmountIn(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getReserves(address,address,address)",
+                    "edge": "internal",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getReserves(address,address,address)",
+                    "kind": "function",
+                    "name": "getReserves(address,address,address)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.getAmountsIn(address,uint256,address[])",
+                "id": "SushiswapV2Library::SushiswapV2Library.getAmountsIn(address,uint256,address[])",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountsIn(address,uint256,address[])",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                    "edge": "internal",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getAmountOut(uint256,uint256,uint256)",
+                    "kind": "function",
+                    "name": "getAmountOut(uint256,uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.getReserves(address,address,address)",
+                    "edge": "internal",
+                    "id": "SushiswapV2Library::SushiswapV2Library.getReserves(address,address,address)",
+                    "kind": "function",
+                    "name": "getReserves(address,address,address)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                "id": "SushiswapV2Library::SushiswapV2Library.getAmountsOut(address,uint256,address[])",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getAmountsOut(address,uint256,address[])",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "ISushiswapV2Pair.getReserves()",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.pairFor(address,address,address)",
+                    "edge": "internal",
+                    "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                    "kind": "function",
+                    "name": "pairFor(address,address,address)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.sortTokens(address,address)",
+                    "edge": "internal",
+                    "id": "SushiswapV2Library::SushiswapV2Library.sortTokens(address,address)",
+                    "kind": "function",
+                    "name": "sortTokens(address,address)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.getReserves(address,address,address)",
+                "id": "SushiswapV2Library::SushiswapV2Library.getReserves(address,address,address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "getReserves(address,address,address)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SushiswapV2Library",
+                    "declared_in": "SushiswapV2Library",
+                    "display": "SushiswapV2Library.sortTokens(address,address)",
+                    "edge": "internal",
+                    "id": "SushiswapV2Library::SushiswapV2Library.sortTokens(address,address)",
+                    "kind": "function",
+                    "name": "sortTokens(address,address)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.pairFor(address,address,address)",
+                "id": "SushiswapV2Library::SushiswapV2Library.pairFor(address,address,address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "pairFor(address,address,address)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.mul(uint256,uint256)",
+                    "edge": "external",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.mul(uint256,uint256)",
+                    "kind": "function",
+                    "name": "mul(uint256,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "SafeMathSushiswap",
+                    "declared_in": "SafeMathSushiswap",
+                    "display": "SafeMathSushiswap.mul(uint256,uint256)",
+                    "edge": "library",
+                    "id": "SafeMathSushiswap::SafeMathSushiswap.mul(uint256,uint256)",
+                    "kind": "function",
+                    "name": "mul(uint256,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.quote(uint256,uint256,uint256)",
+                "id": "SushiswapV2Library::SushiswapV2Library.quote(uint256,uint256,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "quote(uint256,uint256,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "SushiswapV2Library",
+                "declared_in": "SushiswapV2Library",
+                "display": "SushiswapV2Library.sortTokens(address,address)",
+                "id": "SushiswapV2Library::SushiswapV2Library.sortTokens(address,address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "sortTokens(address,address)",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": []
+          },
+          "name": "SushiswapV2Library"
+        },
+        {
+          "functions": {
+            "external": [],
+            "internal": [
+              {
+                "calls": [],
+                "contract_context": "TransferHelper",
+                "declared_in": "TransferHelper",
+                "display": "TransferHelper.safeApprove(address,address,uint256)",
+                "id": "TransferHelper::TransferHelper.safeApprove(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "safeApprove(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "TransferHelper",
+                "declared_in": "TransferHelper",
+                "display": "TransferHelper.safeTransfer(address,address,uint256)",
+                "id": "TransferHelper::TransferHelper.safeTransfer(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "safeTransfer(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "TransferHelper",
+                "declared_in": "TransferHelper",
+                "display": "TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                "id": "TransferHelper::TransferHelper.safeTransferFrom(address,address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "safeTransferFrom(address,address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "TransferHelper",
+                "declared_in": "TransferHelper",
+                "display": "TransferHelper.safeTransferNative(address,uint256)",
+                "id": "TransferHelper::TransferHelper.safeTransferNative(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "safeTransferNative(address,uint256)",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": []
+          },
+          "name": "TransferHelper"
+        }
+      ],
+      "target": "Etherscan/SourceCode/0x6b7a87899490EcE95443e979cA9485CBE7E71522/AnyswapV4Router.sol"
+    }
+  ],
+  "targets": [
+    "Etherscan/SourceCode/0x6b7a87899490EcE95443e979cA9485CBE7E71522/AnyswapV4Router.sol"
+  ],
+  "tool": "contract-preprocess"
+}

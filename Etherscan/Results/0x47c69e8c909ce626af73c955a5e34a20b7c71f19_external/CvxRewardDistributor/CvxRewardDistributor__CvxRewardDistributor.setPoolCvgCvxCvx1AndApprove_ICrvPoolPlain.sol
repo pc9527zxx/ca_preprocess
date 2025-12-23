@@ -10,6 +10,9 @@ function setPoolCvgCvxCvx1AndApprove(ICrvPoolPlain _poolCvgCvxCvx1) external onl
         cvx1.approve(address(_poolCvgCvxCvx1), type(uint256).max);
     }
 
+// leaf targets (no body):
+//   - (external) [abstract]: ICVX1.approve(address,uint256)
+
 // ---- reachable (internal) [internal]: CvxRewardDistributor.onlyOwner()
 // source: Etherscan/SourceCode/0x47c69e8c909ce626af73c955a5e34a20b7c71f19/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:40-43
 modifier onlyOwner() {

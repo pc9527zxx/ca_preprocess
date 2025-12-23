@@ -1,17 +1,19 @@
 digraph "callgraph" {
   rankdir=LR;
-  node [shape=box, fontsize=10];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::__init__" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.__init__\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::approve" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.approve\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::burnFrom" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.burnFrom\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::decimals" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.decimals\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::decreaseAllowance" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.decreaseAllowance\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::increaseAllowance" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.increaseAllowance\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::initialize" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.initialize\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::mint" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.mint\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::mint_relative" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.mint_relative\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::permit" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.permit\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::transfer" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.transfer\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::transferFrom" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.transferFrom\n[external]"];
-  "0xc08550a4cc5333f40e593ecc4c4724808085d304::version" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.version\n[external]"];
+  node [fontsize=10];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::__init__" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.__init__\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::approve" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.approve\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::burnFrom" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.burnFrom\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::decimals" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.decimals\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::decreaseAllowance" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.decreaseAllowance\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::increaseAllowance" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.increaseAllowance\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::initialize" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.initialize\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::mint" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.mint\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::mint_relative" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.mint_relative\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::permit" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.permit\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::transfer" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.transfer\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::transferFrom" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.transferFrom\n[external]", shape="box"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::version" [label="0xc08550a4cc5333f40e593ecc4c4724808085d304.version\n[external]", shape="box"];
+  "unknown::Call.isValidSignature" [label="Call.isValidSignature", shape="ellipse"];
+  "0xc08550a4cc5333f40e593ecc4c4724808085d304::permit" -> "unknown::Call.isValidSignature" [label="external", color="red"];
 }

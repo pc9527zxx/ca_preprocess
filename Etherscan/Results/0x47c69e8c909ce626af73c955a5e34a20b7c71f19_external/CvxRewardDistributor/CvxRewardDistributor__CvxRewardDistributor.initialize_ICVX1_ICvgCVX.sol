@@ -16,6 +16,10 @@ function initialize(ICVX1 _cvx1, ICvgCVX _cvgCVX) external initializer {
         _transferOwnership(treasuryDao);
     }
 
+// leaf targets (no body):
+//   - (external) [abstract]: ICvgControlTowerV2.treasuryDao()
+//   - (external) [abstract]: IERC20.approve(address,uint256)
+
 // ---- reachable (internal) [internal]: CvxRewardDistributor.initializer()
 // source: Etherscan/SourceCode/0x47c69e8c909ce626af73c955a5e34a20b7c71f19/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:84-99
 modifier initializer() {
