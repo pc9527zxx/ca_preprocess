@@ -1,0 +1,1230 @@
+{
+  "compilations": [
+    {
+      "contracts": [
+        {
+          "functions": {
+            "external": [],
+            "internal": [
+              {
+                "calls": [],
+                "contract_context": "Context",
+                "declared_in": "Context",
+                "display": "Context._msgData()",
+                "id": "Context::Context._msgData()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_msgData()",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "Context",
+                "declared_in": "Context",
+                "display": "Context._msgSender()",
+                "id": "Context::Context._msgSender()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_msgSender()",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": []
+          },
+          "name": "Context"
+        },
+        {
+          "functions": {
+            "external": [
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._burn(address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._burn(address,uint256)",
+                    "kind": "function",
+                    "name": "_burn(address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "Cvg",
+                "display": "Cvg.burn(uint256)",
+                "id": "Cvg::Cvg.burn(uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "burn(uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "ICvgControlTower.isBond(address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._mint(address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._mint(address,uint256)",
+                    "kind": "function",
+                    "name": "_mint(address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "Cvg",
+                "display": "Cvg.mintBond(address,uint256)",
+                "id": "Cvg::Cvg.mintBond(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mintBond(address,uint256)",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "ICvgControlTower.isStakingContract(address)",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._mint(address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._mint(address,uint256)",
+                    "kind": "function",
+                    "name": "_mint(address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "Cvg",
+                "display": "Cvg.mintStaking(address,uint256)",
+                "id": "Cvg::Cvg.mintStaking(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mintStaking(address,uint256)",
+                "visibility": "external"
+              }
+            ],
+            "internal": [
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg._afterTokenTransfer(address,address,uint256)",
+                "id": "Cvg::ERC20._afterTokenTransfer(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_afterTokenTransfer(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg._approve(address,address,uint256)",
+                "id": "Cvg::ERC20._approve(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_approve(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg._beforeTokenTransfer(address,address,uint256)",
+                "id": "Cvg::ERC20._beforeTokenTransfer(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_beforeTokenTransfer(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._afterTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._afterTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_afterTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._beforeTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_beforeTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg._burn(address,uint256)",
+                "id": "Cvg::ERC20._burn(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_burn(address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._afterTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._afterTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_afterTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._beforeTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_beforeTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg._mint(address,uint256)",
+                "id": "Cvg::ERC20._mint(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_mint(address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "Context",
+                "display": "Cvg._msgData()",
+                "id": "Cvg::Context._msgData()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_msgData()",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "Context",
+                "display": "Cvg._msgSender()",
+                "id": "Cvg::Context._msgSender()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_msgSender()",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg.allowance(address,address)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20.allowance(address,address)",
+                    "kind": "function",
+                    "name": "allowance(address,address)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg._spendAllowance(address,address,uint256)",
+                "id": "Cvg::ERC20._spendAllowance(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_spendAllowance(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._afterTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._afterTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_afterTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._beforeTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_beforeTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg._transfer(address,address,uint256)",
+                "id": "Cvg::ERC20._transfer(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_transfer(address,address,uint256)",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": [
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.allowance(address,address)",
+                "id": "Cvg::ERC20.allowance(address,address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "allowance(address,address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "Context",
+                    "display": "Cvg._msgSender()",
+                    "edge": "internal",
+                    "id": "Cvg::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.approve(address,uint256)",
+                "id": "Cvg::ERC20.approve(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "approve(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.balanceOf(address)",
+                "id": "Cvg::ERC20.balanceOf(address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "balanceOf(address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20.constructor(string,string)",
+                    "edge": "base-constructor",
+                    "id": "ERC20::ERC20.constructor(string,string)",
+                    "kind": "function",
+                    "name": "constructor(string,string)",
+                    "visibility": "public"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._mint(address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._mint(address,uint256)",
+                    "kind": "function",
+                    "name": "_mint(address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20.constructor(string,string)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20.constructor(string,string)",
+                    "kind": "function",
+                    "name": "constructor(string,string)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "Cvg",
+                "display": "Cvg.constructor(ICvgControlTower,address,address,address)",
+                "id": "Cvg::Cvg.constructor(ICvgControlTower,address,address,address)",
+                "is_constructor": true,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "constructor(ICvgControlTower,address,address,address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.constructor(string,string)",
+                "id": "Cvg::ERC20.constructor(string,string)",
+                "is_constructor": true,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "constructor(string,string)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.decimals()",
+                "id": "Cvg::ERC20.decimals()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "decimals()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "Context",
+                    "display": "Cvg._msgSender()",
+                    "edge": "internal",
+                    "id": "Cvg::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg.allowance(address,address)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20.allowance(address,address)",
+                    "kind": "function",
+                    "name": "allowance(address,address)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.decreaseAllowance(address,uint256)",
+                "id": "Cvg::ERC20.decreaseAllowance(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "decreaseAllowance(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "Context",
+                    "display": "Cvg._msgSender()",
+                    "edge": "internal",
+                    "id": "Cvg::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg.allowance(address,address)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20.allowance(address,address)",
+                    "kind": "function",
+                    "name": "allowance(address,address)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.increaseAllowance(address,uint256)",
+                "id": "Cvg::ERC20.increaseAllowance(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "increaseAllowance(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.name()",
+                "id": "Cvg::ERC20.name()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "name()",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.symbol()",
+                "id": "Cvg::ERC20.symbol()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "symbol()",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.totalSupply()",
+                "id": "Cvg::ERC20.totalSupply()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "totalSupply()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "Context",
+                    "display": "Cvg._msgSender()",
+                    "edge": "internal",
+                    "id": "Cvg::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._transfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._transfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_transfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.transfer(address,uint256)",
+                "id": "Cvg::ERC20.transfer(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transfer(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "Context",
+                    "display": "Cvg._msgSender()",
+                    "edge": "internal",
+                    "id": "Cvg::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._spendAllowance(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._spendAllowance(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_spendAllowance(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "Cvg",
+                    "declared_in": "ERC20",
+                    "display": "Cvg._transfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "Cvg::ERC20._transfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_transfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "Cvg",
+                "declared_in": "ERC20",
+                "display": "Cvg.transferFrom(address,address,uint256)",
+                "id": "Cvg::ERC20.transferFrom(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "public"
+              }
+            ]
+          },
+          "name": "Cvg"
+        },
+        {
+          "functions": {
+            "external": [],
+            "internal": [
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20._afterTokenTransfer(address,address,uint256)",
+                "id": "ERC20::ERC20._afterTokenTransfer(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_afterTokenTransfer(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20._approve(address,address,uint256)",
+                "id": "ERC20::ERC20._approve(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_approve(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20._beforeTokenTransfer(address,address,uint256)",
+                "id": "ERC20::ERC20._beforeTokenTransfer(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_beforeTokenTransfer(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._afterTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._afterTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_afterTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_beforeTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20._burn(address,uint256)",
+                "id": "ERC20::ERC20._burn(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_burn(address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._afterTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._afterTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_afterTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_beforeTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20._mint(address,uint256)",
+                "id": "ERC20::ERC20._mint(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_mint(address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "Context",
+                "display": "ERC20._msgData()",
+                "id": "ERC20::Context._msgData()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_msgData()",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "Context",
+                "display": "ERC20._msgSender()",
+                "id": "ERC20::Context._msgSender()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_msgSender()",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20.allowance(address,address)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20.allowance(address,address)",
+                    "kind": "function",
+                    "name": "allowance(address,address)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20._spendAllowance(address,address,uint256)",
+                "id": "ERC20::ERC20._spendAllowance(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_spendAllowance(address,address,uint256)",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._afterTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._afterTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_afterTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._beforeTokenTransfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_beforeTokenTransfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20._transfer(address,address,uint256)",
+                "id": "ERC20::ERC20._transfer(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_transfer(address,address,uint256)",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": [
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.allowance(address,address)",
+                "id": "ERC20::ERC20.allowance(address,address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "allowance(address,address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "Context",
+                    "display": "ERC20._msgSender()",
+                    "edge": "internal",
+                    "id": "ERC20::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.approve(address,uint256)",
+                "id": "ERC20::ERC20.approve(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "approve(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.balanceOf(address)",
+                "id": "ERC20::ERC20.balanceOf(address)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "balanceOf(address)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.constructor(string,string)",
+                "id": "ERC20::ERC20.constructor(string,string)",
+                "is_constructor": true,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "constructor(string,string)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.decimals()",
+                "id": "ERC20::ERC20.decimals()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "decimals()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "Context",
+                    "display": "ERC20._msgSender()",
+                    "edge": "internal",
+                    "id": "ERC20::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20.allowance(address,address)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20.allowance(address,address)",
+                    "kind": "function",
+                    "name": "allowance(address,address)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.decreaseAllowance(address,uint256)",
+                "id": "ERC20::ERC20.decreaseAllowance(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "decreaseAllowance(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._approve(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._approve(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_approve(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "Context",
+                    "display": "ERC20._msgSender()",
+                    "edge": "internal",
+                    "id": "ERC20::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20.allowance(address,address)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20.allowance(address,address)",
+                    "kind": "function",
+                    "name": "allowance(address,address)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.increaseAllowance(address,uint256)",
+                "id": "ERC20::ERC20.increaseAllowance(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "increaseAllowance(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.name()",
+                "id": "ERC20::ERC20.name()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "name()",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.symbol()",
+                "id": "ERC20::ERC20.symbol()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "symbol()",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.totalSupply()",
+                "id": "ERC20::ERC20.totalSupply()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "totalSupply()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "Context",
+                    "display": "ERC20._msgSender()",
+                    "edge": "internal",
+                    "id": "ERC20::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._transfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._transfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_transfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.transfer(address,uint256)",
+                "id": "ERC20::ERC20.transfer(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transfer(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "Context",
+                    "display": "ERC20._msgSender()",
+                    "edge": "internal",
+                    "id": "ERC20::Context._msgSender()",
+                    "kind": "function",
+                    "name": "_msgSender()",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._spendAllowance(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._spendAllowance(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_spendAllowance(address,address,uint256)",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "ERC20",
+                    "declared_in": "ERC20",
+                    "display": "ERC20._transfer(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "ERC20::ERC20._transfer(address,address,uint256)",
+                    "kind": "function",
+                    "name": "_transfer(address,address,uint256)",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "ERC20",
+                "declared_in": "ERC20",
+                "display": "ERC20.transferFrom(address,address,uint256)",
+                "id": "ERC20::ERC20.transferFrom(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "public"
+              }
+            ]
+          },
+          "name": "ERC20"
+        }
+      ],
+      "target": "Etherscan/SourceCode/0x97effb790f2fbb701d88f89db4521348a2b77be8/contracts/Token/Cvg.sol"
+    }
+  ],
+  "targets": [
+    "Etherscan/SourceCode/0x97effb790f2fbb701d88f89db4521348a2b77be8/contracts/Token/Cvg.sol"
+  ],
+  "tool": "contract-preprocess"
+}

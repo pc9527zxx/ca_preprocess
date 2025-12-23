@@ -1,0 +1,1333 @@
+{
+  "compilations": [
+    {
+      "contracts": [
+        {
+          "functions": {
+            "external": [
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.A",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::A",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "A",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.__default__",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::__default__",
+                "is_constructor": false,
+                "is_fallback": true,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "__default__",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.__init__",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::__init__",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "__init__",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._calc_token_fee",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_calc_token_fee",
+                    "kind": "function",
+                    "name": "_calc_token_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._get_precisions",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_get_precisions",
+                    "kind": "function",
+                    "name": "_get_precisions",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.get_xcp",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::get_xcp",
+                    "kind": "function",
+                    "name": "get_xcp",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                    "kind": "function",
+                    "name": "newton_D",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.tweak_price",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::tweak_price",
+                    "kind": "function",
+                    "name": "tweak_price",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.add_liquidity",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::add_liquidity",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "add_liquidity",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.admin",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::admin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "admin",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._claim_admin_fees",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_claim_admin_fees",
+                    "kind": "function",
+                    "name": "_claim_admin_fees",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.apply_new_parameters",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::apply_new_parameters",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "apply_new_parameters",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.burnFrom",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::burnFrom",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "burnFrom",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._calc_token_fee",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_calc_token_fee",
+                    "kind": "function",
+                    "name": "_calc_token_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._get_precisions",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_get_precisions",
+                    "kind": "function",
+                    "name": "_get_precisions",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                    "kind": "function",
+                    "name": "newton_D",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.xp",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::xp",
+                    "kind": "function",
+                    "name": "xp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.calc_token_amount",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::calc_token_amount",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "calc_token_amount",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._calc_withdraw_one_coin",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_calc_withdraw_one_coin",
+                    "kind": "function",
+                    "name": "_calc_withdraw_one_coin",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.calc_withdraw_one_coin",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::calc_withdraw_one_coin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "calc_withdraw_one_coin",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._claim_admin_fees",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_claim_admin_fees",
+                    "kind": "function",
+                    "name": "_claim_admin_fees",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.claim_admin_fees",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::claim_admin_fees",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "claim_admin_fees",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.commit_new_parameters",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::commit_new_parameters",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "commit_new_parameters",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.deposit",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::deposit",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "deposit",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._exchange",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_exchange",
+                    "kind": "function",
+                    "name": "_exchange",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.exchange",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::exchange",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "exchange",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._exchange",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_exchange",
+                    "kind": "function",
+                    "name": "_exchange",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.exchange_extended",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::exchange_extended",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "exchange_extended",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._exchange",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_exchange",
+                    "kind": "function",
+                    "name": "_exchange",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.exchange_underlying",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::exchange_underlying",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "exchange_underlying",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._fee",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.xp",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::xp",
+                    "kind": "function",
+                    "name": "xp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.fee",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "fee",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.fee_receiver",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::fee_receiver",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "fee_receiver",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.gamma",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "gamma",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._fee",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._get_precisions",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_get_precisions",
+                    "kind": "function",
+                    "name": "_get_precisions",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                    "kind": "function",
+                    "name": "newton_D",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_y",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_y",
+                    "kind": "function",
+                    "name": "newton_y",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.xp",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::xp",
+                    "kind": "function",
+                    "name": "xp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.get_dy",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::get_dy",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_dy",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.get_xcp",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::get_xcp",
+                    "kind": "function",
+                    "name": "get_xcp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.get_virtual_price",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::get_virtual_price",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_virtual_price",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.initialize",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::initialize",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "initialize",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.internal_price_oracle",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::internal_price_oracle",
+                    "kind": "function",
+                    "name": "internal_price_oracle",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.sqrt_int",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::sqrt_int",
+                    "kind": "function",
+                    "name": "sqrt_int",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.lp_price",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::lp_price",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "lp_price",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.mint",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::mint",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mint",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.mint_relative",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::mint_relative",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mint_relative",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.internal_price_oracle",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::internal_price_oracle",
+                    "kind": "function",
+                    "name": "internal_price_oracle",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.price_oracle",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::price_oracle",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "price_oracle",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.ramp_A_gamma",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::ramp_A_gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "ramp_A_gamma",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.remove_liquidity",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::remove_liquidity",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "remove_liquidity",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._calc_withdraw_one_coin",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_calc_withdraw_one_coin",
+                    "kind": "function",
+                    "name": "_calc_withdraw_one_coin",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.tweak_price",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::tweak_price",
+                    "kind": "function",
+                    "name": "tweak_price",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.remove_liquidity_one_coin",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::remove_liquidity_one_coin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "remove_liquidity_one_coin",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.revert_new_parameters",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::revert_new_parameters",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "revert_new_parameters",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.stop_ramp_A_gamma",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::stop_ramp_A_gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "stop_ramp_A_gamma",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.totalSupply",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::totalSupply",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "totalSupply",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.withdraw",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::withdraw",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "withdraw",
+                "visibility": "external"
+              }
+            ],
+            "internal": [
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_A_gamma",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._fee",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._calc_token_fee",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_calc_token_fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_calc_token_fee",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._fee",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._get_precisions",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_get_precisions",
+                    "kind": "function",
+                    "name": "_get_precisions",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                    "kind": "function",
+                    "name": "newton_D",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_y",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_y",
+                    "kind": "function",
+                    "name": "newton_y",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._calc_withdraw_one_coin",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_calc_withdraw_one_coin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_calc_withdraw_one_coin",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.get_xcp",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::get_xcp",
+                    "kind": "function",
+                    "name": "get_xcp",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                    "kind": "function",
+                    "name": "newton_D",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.xp",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::xp",
+                    "kind": "function",
+                    "name": "xp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._claim_admin_fees",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_claim_admin_fees",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_claim_admin_fees",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._A_gamma",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._fee",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._get_precisions",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_get_precisions",
+                    "kind": "function",
+                    "name": "_get_precisions",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                    "kind": "function",
+                    "name": "newton_D",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_y",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_y",
+                    "kind": "function",
+                    "name": "newton_y",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.tweak_price",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::tweak_price",
+                    "kind": "function",
+                    "name": "tweak_price",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._exchange",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_exchange",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_exchange",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._fee",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_fee",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._get_precisions",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_get_precisions",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_get_precisions",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.geometric_mean",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::geometric_mean",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "geometric_mean",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.geometric_mean",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::geometric_mean",
+                    "kind": "function",
+                    "name": "geometric_mean",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.get_xcp",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::get_xcp",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_xcp",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.halfpow",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::halfpow",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "halfpow",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.halfpow",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::halfpow",
+                    "kind": "function",
+                    "name": "halfpow",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.internal_price_oracle",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::internal_price_oracle",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "internal_price_oracle",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.geometric_mean",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::geometric_mean",
+                    "kind": "function",
+                    "name": "geometric_mean",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "newton_D",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_y",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_y",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "newton_y",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.sqrt_int",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::sqrt_int",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "sqrt_int",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._claim_admin_fees",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_claim_admin_fees",
+                    "kind": "function",
+                    "name": "_claim_admin_fees",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.geometric_mean",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::geometric_mean",
+                    "kind": "function",
+                    "name": "geometric_mean",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.halfpow",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::halfpow",
+                    "kind": "function",
+                    "name": "halfpow",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_D",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_D",
+                    "kind": "function",
+                    "name": "newton_D",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.newton_y",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::newton_y",
+                    "kind": "function",
+                    "name": "newton_y",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.tweak_price",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::tweak_price",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "tweak_price",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                    "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10._get_precisions",
+                    "edge": "internal",
+                    "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::_get_precisions",
+                    "kind": "function",
+                    "name": "_get_precisions",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "declared_in": "0xa85461afc2deec01bda23b5cd267d51f765fba10",
+                "display": "0xa85461afc2deec01bda23b5cd267d51f765fba10.xp",
+                "id": "0xa85461afc2deec01bda23b5cd267d51f765fba10::xp",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "xp",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": []
+          },
+          "name": "0xa85461afc2deec01bda23b5cd267d51f765fba10"
+        }
+      ],
+      "target": "Etherscan/SourceCode/0xa85461afc2deec01bda23b5cd267d51f765fba10/0xa85461afc2deec01bda23b5cd267d51f765fba10.vy"
+    }
+  ],
+  "targets": [
+    "Etherscan/SourceCode/0xa85461afc2deec01bda23b5cd267d51f765fba10/0xa85461afc2deec01bda23b5cd267d51f765fba10.vy"
+  ],
+  "tool": "contract-preprocess"
+}

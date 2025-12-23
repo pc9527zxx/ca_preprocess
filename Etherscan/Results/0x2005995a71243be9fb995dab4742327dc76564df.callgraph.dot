@@ -1,0 +1,16 @@
+digraph "callgraph" {
+  rankdir=LR;
+  node [shape=box, fontsize=10];
+  "0x2005995a71243be9fb995dab4742327dc76564df::_cbrt" [label="0x2005995a71243be9fb995dab4742327dc76564df._cbrt\n[internal]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::_newton_y" [label="0x2005995a71243be9fb995dab4742327dc76564df._newton_y\n[internal]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::_snekmate_log_2" [label="0x2005995a71243be9fb995dab4742327dc76564df._snekmate_log_2\n[internal]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::get_p" [label="0x2005995a71243be9fb995dab4742327dc76564df.get_p\n[external]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::get_y" [label="0x2005995a71243be9fb995dab4742327dc76564df.get_y\n[external]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::newton_D" [label="0x2005995a71243be9fb995dab4742327dc76564df.newton_D\n[external]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::newton_y" [label="0x2005995a71243be9fb995dab4742327dc76564df.newton_y\n[external]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::wad_exp" [label="0x2005995a71243be9fb995dab4742327dc76564df.wad_exp\n[external]"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::_cbrt" -> "0x2005995a71243be9fb995dab4742327dc76564df::_snekmate_log_2" [label="internal", color="black"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::get_y" -> "0x2005995a71243be9fb995dab4742327dc76564df::_cbrt" [label="internal", color="black"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::get_y" -> "0x2005995a71243be9fb995dab4742327dc76564df::_newton_y" [label="internal", color="black"];
+  "0x2005995a71243be9fb995dab4742327dc76564df::newton_y" -> "0x2005995a71243be9fb995dab4742327dc76564df::_newton_y" [label="internal", color="black"];
+}

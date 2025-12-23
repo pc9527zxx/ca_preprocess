@@ -1,0 +1,1700 @@
+{
+  "compilations": [
+    {
+      "contracts": [
+        {
+          "functions": {
+            "external": [
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.A",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::A",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "A",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._domain_separator",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_domain_separator",
+                    "kind": "function",
+                    "name": "_domain_separator",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.DOMAIN_SEPARATOR",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::DOMAIN_SEPARATOR",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "DOMAIN_SEPARATOR",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._pack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_pack_2",
+                    "kind": "function",
+                    "name": "_pack_2",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_2",
+                    "kind": "function",
+                    "name": "_unpack_2",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.__init__",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::__init__",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "__init__",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "MATH.newton_D",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._calc_token_fee",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_calc_token_fee",
+                    "kind": "function",
+                    "name": "_calc_token_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_in",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_in",
+                    "kind": "function",
+                    "name": "_transfer_in",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.get_xcp",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::get_xcp",
+                    "kind": "function",
+                    "name": "get_xcp",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.mint",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::mint",
+                    "kind": "function",
+                    "name": "mint",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.tweak_price",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::tweak_price",
+                    "kind": "function",
+                    "name": "tweak_price",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.add_liquidity",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::add_liquidity",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "add_liquidity",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.adjustment_step",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::adjustment_step",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "adjustment_step",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "factory.admin",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.admin",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::admin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "admin",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.allowed_extra_profit",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::allowed_extra_profit",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "allowed_extra_profit",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "factory.admin",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._pack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_pack_3",
+                    "kind": "function",
+                    "name": "_pack_3",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.apply_new_parameters",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::apply_new_parameters",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "apply_new_parameters",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._approve",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_approve",
+                    "kind": "function",
+                    "name": "_approve",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.approve",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::approve",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "approve",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "Call.calc_token_amount",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "factory.views_implementation",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.calc_token_amount",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::calc_token_amount",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "calc_token_amount",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._calc_token_fee",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_calc_token_fee",
+                    "kind": "function",
+                    "name": "_calc_token_fee",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.calc_token_fee",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::calc_token_fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "calc_token_fee",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._calc_withdraw_one_coin",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_calc_withdraw_one_coin",
+                    "kind": "function",
+                    "name": "_calc_withdraw_one_coin",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.calc_withdraw_one_coin",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::calc_withdraw_one_coin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "calc_withdraw_one_coin",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._exchange",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_exchange",
+                    "kind": "function",
+                    "name": "_exchange",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_in",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_in",
+                    "kind": "function",
+                    "name": "_transfer_in",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_out",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_out",
+                    "kind": "function",
+                    "name": "_transfer_out",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.exchange",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::exchange",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "exchange",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._exchange",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_exchange",
+                    "kind": "function",
+                    "name": "_exchange",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_in",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_in",
+                    "kind": "function",
+                    "name": "_transfer_in",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_out",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_out",
+                    "kind": "function",
+                    "name": "_transfer_out",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.exchange_received",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::exchange_received",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "exchange_received",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._fee",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.xp",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::xp",
+                    "kind": "function",
+                    "name": "xp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.fee",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "fee",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._fee",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.fee_calc",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::fee_calc",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "fee_calc",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.fee_gamma",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::fee_gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "fee_gamma",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "factory.fee_receiver",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.fee_receiver",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::fee_receiver",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "fee_receiver",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.gamma",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "gamma",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "Call.get_dx",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "factory.views_implementation",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.get_dx",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::get_dx",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_dx",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "Call.get_dy",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "factory.views_implementation",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.get_dy",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::get_dy",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_dy",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.get_xcp",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::get_xcp",
+                    "kind": "function",
+                    "name": "get_xcp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.get_virtual_price",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::get_virtual_price",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_virtual_price",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.internal_price_oracle",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::internal_price_oracle",
+                    "kind": "function",
+                    "name": "internal_price_oracle",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.lp_price",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::lp_price",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "lp_price",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.ma_time",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::ma_time",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "ma_time",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.mid_fee",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::mid_fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mid_fee",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.out_fee",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::out_fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "out_fee",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._approve",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_approve",
+                    "kind": "function",
+                    "name": "_approve",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._domain_separator",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_domain_separator",
+                    "kind": "function",
+                    "name": "_domain_separator",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.permit",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::permit",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "permit",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.precisions",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::precisions",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "precisions",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.internal_price_oracle",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::internal_price_oracle",
+                    "kind": "function",
+                    "name": "internal_price_oracle",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.price_oracle",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::price_oracle",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "price_oracle",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.price_scale",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::price_scale",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "price_scale",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "factory.admin",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.ramp_A_gamma",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::ramp_A_gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "ramp_A_gamma",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "MATH.wad_exp",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._pack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_pack_2",
+                    "kind": "function",
+                    "name": "_pack_2",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_out",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_out",
+                    "kind": "function",
+                    "name": "_transfer_out",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_2",
+                    "kind": "function",
+                    "name": "_unpack_2",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.burnFrom",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::burnFrom",
+                    "kind": "function",
+                    "name": "burnFrom",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.xp",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::xp",
+                    "kind": "function",
+                    "name": "xp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.remove_liquidity",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::remove_liquidity",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "remove_liquidity",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._calc_withdraw_one_coin",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_calc_withdraw_one_coin",
+                    "kind": "function",
+                    "name": "_calc_withdraw_one_coin",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._claim_admin_fees",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_claim_admin_fees",
+                    "kind": "function",
+                    "name": "_claim_admin_fees",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_out",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_out",
+                    "kind": "function",
+                    "name": "_transfer_out",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.burnFrom",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::burnFrom",
+                    "kind": "function",
+                    "name": "burnFrom",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.tweak_price",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::tweak_price",
+                    "kind": "function",
+                    "name": "tweak_price",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.remove_liquidity_one_coin",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::remove_liquidity_one_coin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "remove_liquidity_one_coin",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "factory.admin",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.stop_ramp_A_gamma",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::stop_ramp_A_gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "stop_ramp_A_gamma",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer",
+                    "kind": "function",
+                    "name": "_transfer",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.transfer",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::transfer",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transfer",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._approve",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_approve",
+                    "kind": "function",
+                    "name": "_approve",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer",
+                    "kind": "function",
+                    "name": "_transfer",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.transferFrom",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::transferFrom",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transferFrom",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "MATH.wad_exp",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_2",
+                    "kind": "function",
+                    "name": "_unpack_2",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.xcp_oracle",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::xcp_oracle",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "xcp_oracle",
+                "visibility": "external"
+              }
+            ],
+            "internal": [
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_A_gamma",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._approve",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_approve",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_approve",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._fee",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._calc_token_fee",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_calc_token_fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_calc_token_fee",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "MATH.get_y",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "MATH.newton_D",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._fee",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._calc_withdraw_one_coin",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_calc_withdraw_one_coin",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_calc_withdraw_one_coin",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "factory.fee_receiver",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_out",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_out",
+                    "kind": "function",
+                    "name": "_transfer_out",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.get_xcp",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::get_xcp",
+                    "kind": "function",
+                    "name": "get_xcp",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._claim_admin_fees",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_claim_admin_fees",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_claim_admin_fees",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._domain_separator",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_domain_separator",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_domain_separator",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "MATH.get_y",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "MATH.newton_D",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._A_gamma",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_A_gamma",
+                    "kind": "function",
+                    "name": "_A_gamma",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._fee",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_fee",
+                    "kind": "function",
+                    "name": "_fee",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.tweak_price",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::tweak_price",
+                    "kind": "function",
+                    "name": "tweak_price",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._exchange",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_exchange",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_exchange",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._fee",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_fee",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_fee",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._pack_2",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_pack_2",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_pack_2",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._pack_3",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_pack_3",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_pack_3",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_transfer",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "Call.balanceOf",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "Call.transferFrom",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_in",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_in",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_transfer_in",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "Call.transfer",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._transfer_out",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_transfer_out",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_transfer_out",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_2",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_2",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_unpack_2",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_unpack_3",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.burnFrom",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::burnFrom",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "burnFrom",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.get_xcp",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::get_xcp",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_xcp",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "MATH.wad_exp",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_2",
+                    "kind": "function",
+                    "name": "_unpack_2",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.internal_price_oracle",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::internal_price_oracle",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "internal_price_oracle",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.mint",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::mint",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mint",
+                "visibility": "internal"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "MATH.get_p",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "MATH.newton_D",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "display": "MATH.wad_exp",
+                    "edge": "external",
+                    "kind": "unknown"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._pack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_pack_2",
+                    "kind": "function",
+                    "name": "_pack_2",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_2",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_2",
+                    "kind": "function",
+                    "name": "_unpack_2",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                    "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2._unpack_3",
+                    "edge": "internal",
+                    "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::_unpack_3",
+                    "kind": "function",
+                    "name": "_unpack_3",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.tweak_price",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::tweak_price",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "tweak_price",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "declared_in": "0x004c167d27ada24305b76d80762997fa6eb8d9b2",
+                "display": "0x004c167d27ada24305b76d80762997fa6eb8d9b2.xp",
+                "id": "0x004c167d27ada24305b76d80762997fa6eb8d9b2::xp",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "xp",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": []
+          },
+          "name": "0x004c167d27ada24305b76d80762997fa6eb8d9b2"
+        }
+      ],
+      "target": "Etherscan/SourceCode/0x004c167d27ada24305b76d80762997fa6eb8d9b2/0x004c167d27ada24305b76d80762997fa6eb8d9b2.vy"
+    }
+  ],
+  "targets": [
+    "Etherscan/SourceCode/0x004c167d27ada24305b76d80762997fa6eb8d9b2/0x004c167d27ada24305b76d80762997fa6eb8d9b2.vy"
+  ],
+  "tool": "contract-preprocess"
+}

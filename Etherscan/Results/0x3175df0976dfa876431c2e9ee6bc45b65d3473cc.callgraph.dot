@@ -1,0 +1,15 @@
+digraph "callgraph" {
+  rankdir=LR;
+  node [shape=box, fontsize=10];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::__init__" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.__init__\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::approve" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.approve\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::burnFrom" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.burnFrom\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::decimals" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.decimals\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::decreaseAllowance" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.decreaseAllowance\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::increaseAllowance" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.increaseAllowance\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::mint" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.mint\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::set_minter" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.set_minter\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::set_name" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.set_name\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::transfer" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.transfer\n[external]"];
+  "0x3175df0976dfa876431c2e9ee6bc45b65d3473cc::transferFrom" [label="0x3175df0976dfa876431c2e9ee6bc45b65d3473cc.transferFrom\n[external]"];
+}

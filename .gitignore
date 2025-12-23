@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.egg-info/
+build/
+dist/
+
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+contract-preprocess-cache/

@@ -1,0 +1,211 @@
+{
+  "compilations": [
+    {
+      "contracts": [
+        {
+          "functions": {
+            "external": [
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.__init__",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::__init__",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "__init__",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.approve",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::approve",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "approve",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.burnFrom",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::burnFrom",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "burnFrom",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.decimals",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::decimals",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "decimals",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.decreaseAllowance",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::decreaseAllowance",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "decreaseAllowance",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.increaseAllowance",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::increaseAllowance",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "increaseAllowance",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.initialize",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::initialize",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "initialize",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.mint",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::mint",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mint",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.mint_relative",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::mint_relative",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "mint_relative",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "display": "Call.isValidSignature",
+                    "edge": "external",
+                    "kind": "unknown"
+                  }
+                ],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.permit",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::permit",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "permit",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.transfer",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::transfer",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transfer",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.transferFrom",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::transferFrom",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transferFrom",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "declared_in": "0xc08550a4cc5333f40e593ecc4c4724808085d304",
+                "display": "0xc08550a4cc5333f40e593ecc4c4724808085d304.version",
+                "id": "0xc08550a4cc5333f40e593ecc4c4724808085d304::version",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "version",
+                "visibility": "external"
+              }
+            ],
+            "internal": [],
+            "private": [],
+            "public": []
+          },
+          "name": "0xc08550a4cc5333f40e593ecc4c4724808085d304"
+        }
+      ],
+      "target": "Etherscan/SourceCode/0xc08550a4cc5333f40e593ecc4c4724808085d304/0xc08550a4cc5333f40e593ecc4c4724808085d304.vy"
+    }
+  ],
+  "targets": [
+    "Etherscan/SourceCode/0xc08550a4cc5333f40e593ecc4c4724808085d304/0xc08550a4cc5333f40e593ecc4c4724808085d304.vy"
+  ],
+  "tool": "contract-preprocess"
+}

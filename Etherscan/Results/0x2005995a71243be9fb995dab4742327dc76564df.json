@@ -1,0 +1,179 @@
+{
+  "compilations": [
+    {
+      "contracts": [
+        {
+          "functions": {
+            "external": [
+              {
+                "calls": [],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df.get_p",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::get_p",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_p",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "display": "0x2005995a71243be9fb995dab4742327dc76564df._cbrt",
+                    "edge": "internal",
+                    "id": "0x2005995a71243be9fb995dab4742327dc76564df::_cbrt",
+                    "kind": "function",
+                    "name": "_cbrt",
+                    "visibility": "internal"
+                  },
+                  {
+                    "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "display": "0x2005995a71243be9fb995dab4742327dc76564df._newton_y",
+                    "edge": "internal",
+                    "id": "0x2005995a71243be9fb995dab4742327dc76564df::_newton_y",
+                    "kind": "function",
+                    "name": "_newton_y",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df.get_y",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::get_y",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "get_y",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df.newton_D",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::newton_D",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "newton_D",
+                "visibility": "external"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "display": "0x2005995a71243be9fb995dab4742327dc76564df._newton_y",
+                    "edge": "internal",
+                    "id": "0x2005995a71243be9fb995dab4742327dc76564df::_newton_y",
+                    "kind": "function",
+                    "name": "_newton_y",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df.newton_y",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::newton_y",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "newton_y",
+                "visibility": "external"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df.wad_exp",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::wad_exp",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "wad_exp",
+                "visibility": "external"
+              }
+            ],
+            "internal": [
+              {
+                "calls": [
+                  {
+                    "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                    "display": "0x2005995a71243be9fb995dab4742327dc76564df._snekmate_log_2",
+                    "edge": "internal",
+                    "id": "0x2005995a71243be9fb995dab4742327dc76564df::_snekmate_log_2",
+                    "kind": "function",
+                    "name": "_snekmate_log_2",
+                    "visibility": "internal"
+                  }
+                ],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df._cbrt",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::_cbrt",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_cbrt",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df._newton_y",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::_newton_y",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_newton_y",
+                "visibility": "internal"
+              },
+              {
+                "calls": [],
+                "contract_context": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "declared_in": "0x2005995a71243be9fb995dab4742327dc76564df",
+                "display": "0x2005995a71243be9fb995dab4742327dc76564df._snekmate_log_2",
+                "id": "0x2005995a71243be9fb995dab4742327dc76564df::_snekmate_log_2",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "_snekmate_log_2",
+                "visibility": "internal"
+              }
+            ],
+            "private": [],
+            "public": []
+          },
+          "name": "0x2005995a71243be9fb995dab4742327dc76564df"
+        }
+      ],
+      "target": "Etherscan/SourceCode/0x2005995a71243be9fb995dab4742327dc76564df/0x2005995a71243be9fb995dab4742327dc76564df.vy"
+    }
+  ],
+  "targets": [
+    "Etherscan/SourceCode/0x2005995a71243be9fb995dab4742327dc76564df/0x2005995a71243be9fb995dab4742327dc76564df.vy"
+  ],
+  "tool": "contract-preprocess"
+}

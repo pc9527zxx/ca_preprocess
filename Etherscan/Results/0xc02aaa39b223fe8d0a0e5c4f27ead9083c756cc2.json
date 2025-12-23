@@ -1,0 +1,143 @@
+{
+  "compilations": [
+    {
+      "contracts": [
+        {
+          "functions": {
+            "external": [],
+            "internal": [],
+            "private": [],
+            "public": [
+              {
+                "calls": [],
+                "contract_context": "WETH9",
+                "declared_in": "WETH9",
+                "display": "WETH9.approve(address,uint256)",
+                "id": "WETH9::WETH9.approve(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "approve(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "WETH9",
+                "declared_in": "WETH9",
+                "display": "WETH9.deposit()",
+                "id": "WETH9::WETH9.deposit()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "deposit()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "WETH9",
+                    "declared_in": "WETH9",
+                    "display": "WETH9.deposit()",
+                    "edge": "internal",
+                    "id": "WETH9::WETH9.deposit()",
+                    "kind": "function",
+                    "name": "deposit()",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "WETH9",
+                "declared_in": "WETH9",
+                "display": "WETH9.fallback()",
+                "id": "WETH9::WETH9.fallback()",
+                "is_constructor": false,
+                "is_fallback": true,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "fallback()",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "WETH9",
+                "declared_in": "WETH9",
+                "display": "WETH9.totalSupply()",
+                "id": "WETH9::WETH9.totalSupply()",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "totalSupply()",
+                "visibility": "public"
+              },
+              {
+                "calls": [
+                  {
+                    "contract_context": "WETH9",
+                    "declared_in": "WETH9",
+                    "display": "WETH9.transferFrom(address,address,uint256)",
+                    "edge": "internal",
+                    "id": "WETH9::WETH9.transferFrom(address,address,uint256)",
+                    "kind": "function",
+                    "name": "transferFrom(address,address,uint256)",
+                    "visibility": "public"
+                  }
+                ],
+                "contract_context": "WETH9",
+                "declared_in": "WETH9",
+                "display": "WETH9.transfer(address,uint256)",
+                "id": "WETH9::WETH9.transfer(address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transfer(address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "WETH9",
+                "declared_in": "WETH9",
+                "display": "WETH9.transferFrom(address,address,uint256)",
+                "id": "WETH9::WETH9.transferFrom(address,address,uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "transferFrom(address,address,uint256)",
+                "visibility": "public"
+              },
+              {
+                "calls": [],
+                "contract_context": "WETH9",
+                "declared_in": "WETH9",
+                "display": "WETH9.withdraw(uint256)",
+                "id": "WETH9::WETH9.withdraw(uint256)",
+                "is_constructor": false,
+                "is_fallback": false,
+                "is_receive": false,
+                "is_shadowed": false,
+                "kind": "function",
+                "name": "withdraw(uint256)",
+                "visibility": "public"
+              }
+            ]
+          },
+          "name": "WETH9"
+        }
+      ],
+      "target": "Etherscan/SourceCode/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.sol"
+    }
+  ],
+  "targets": [
+    "Etherscan/SourceCode/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.sol"
+  ],
+  "tool": "contract-preprocess"
+}
